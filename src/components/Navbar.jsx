@@ -9,6 +9,8 @@ import Link from "next/link";
 import { items } from "@/data/Nav";
 import { FaBars } from "react-icons/fa";
 
+import MadeInUSA from "@/public/images/MadeInUSA.webp";
+
 const Navigation = () => {
   const [selected, setSelected] = useState("");
 
@@ -57,6 +59,17 @@ const Navigation = () => {
             </Nav.Link>
           ))}
         </Nav>
+
+        {/* New Image on the Right Corner */}
+        <div className="hidden lg:flex items-center ml-5">
+          <Image
+            src={MadeInUSA}
+            alt="Made in USA"
+            width={100} // Adjust size as needed
+            height={100}
+            className="object-contain"
+          />
+        </div>
       </Navbar.Collapse>
     </Navbar>
   );
