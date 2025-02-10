@@ -278,7 +278,7 @@ const Landing = () => {
   </Link>
 
   {/* Clamps Duplicate 2 */}
-  <Link href="/line-clamps" className="relative group">
+  <Link href="/applications" className="relative group">
     <Image
       src={ClampBracket}
       alt="Clamps and Brackets"
@@ -291,7 +291,7 @@ const Landing = () => {
     </div>
   </Link>
 
-  {/* Clamps Duplicate 3 */}
+  {/* Clamps Duplicate 3
   <Link href="/line-clamps" className="relative group">
     <Image
       src={ClampBracket}
@@ -305,7 +305,7 @@ const Landing = () => {
         Bracket
       </p>
     </div>
-  </Link>
+  </Link> */}
 </div>
 
 
