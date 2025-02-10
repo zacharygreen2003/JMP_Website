@@ -382,7 +382,7 @@ const steps = [
 
 const Lifecycle = () => {
   const radius = 180; // Distance from center
-  const duration = 10; // Speed of movement in seconds
+  const duration = 20; // Speed of movement in seconds
   const stepCount = steps.length;
   const [angleOffset, setAngleOffset] = useState(0);
 
